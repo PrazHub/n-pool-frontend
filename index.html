@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTinvesting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"
+      integrity="sha512-RWhcC19d8A3vE7kpXq6Ze4GcPfGe3DQWuenhXAbcGiZOaqGojLtWwit1eeM9jLGHFv8hnwpX3blJKGjTsf2HxQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+
+  <body class="bg-brand-dark">
+    <div id="header"></div>
+    <!-- Carousel -->
+    <div id="headercarousel" class="carousel slide py-5">
+      <!-- data-bs-ride="carousel"> -->
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#headercarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headercarousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headercarousel"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headercarousel"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="justify-content-center row my-5 align-items-center">
+            <div
+              class="offset-1 col-lg-5 d-flex flex-column justify-content-center text-white mb-4"
+            >
+              <h3 class="">
+                <span class="text-brand-red text-58">MTinvesting</span>
+                <span class="text-40">Online Forex Trading</span>
+              </h3>
+              <p class="text-wrap w-100 text-20">
+                Trade The Markets with Fast Direct Execution and Support in 30+
+                Languages at XM. Licensed and Regulated Broker, Multi Awarded
+                Platforms Available On
+              </p>
+              <div class="mt-4">
+                <a
+                  class="bg-brand-red hover:bg-brand-orange rounded-4 text-20 text-white fw-bold px-4 py-2 text-nowrap text-decoration-none"
+                  href="#"
+                >
+                  Start Trading
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-r-1">
+              <img src="./img/slide-1.png" alt="Slide " class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="justify-content-center row my-5 align-items-center">
+            <div
+              class="offset-1 col-lg-5 d-flex flex-column justify-content-center text-white mb-4"
+            >
+              <h3 class="">
+                <span class="text-brand-red text-58">MTinvesting</span>
+                <span class="text-40">Online Forex Trading</span>
+              </h3>
+              <p class="text-wrap w-100 text-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                sequi perferendis ratione delectus ut cum quidem alias placeat
+                explicabo laboriosam.
+              </p>
+              <div class="mt-4">
+                <a class="start-trading-btn" href="#">Start Trading</a>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-r-1">
+              <img src="./img/slide-2.png" alt="Slide " class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="justify-content-center row my-5 align-items-center">
+            <div
+              class="offset-1 col-lg-5 d-flex flex-column justify-content-center text-white mb-4"
+            >
+              <h3 class="">
+                <span class="text-brand-red text-58">MTinvesting</span>
+                <span class="text-40">Online Forex Trading</span>
+              </h3>
+              <p class="text-wrap w-100 text-20">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Inventore, labore architecto rerum, earum nobis similique,
+                possimus dolor perferendis impedit doloribus nulla non cum sint
+                quasi nemo natus autem quas. Tenetur.
+              </p>
+              <div class="mt-4">
+                <a class="start-trading-btn" href="#">Start Trading</a>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-r-1">
+              <img src="./img/slide-3.png" alt="Slide " class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="justify-content-center row my-5 align-items-center">
+            <div
+              class="offset-1 col-lg-5 d-flex flex-column justify-content-center text-white mb-4"
+            >
+              <h3 class="">
+                <span class="text-brand-red text-58">MTinvesting</span>
+                <span class="text-40">Online Forex Trading</span>
+              </h3>
+              <p class="text-wrap w-100 text-20">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, est ea distinctio, repudiandae voluptas inventore ut
+                natus consequuntur tempore quae vel ducimus excepturi delectus
+                similique! Tenetur corrupti aliquam eaque voluptatem.
+              </p>
+              <div class="mt-4">
+                <a class="start-trading-btn" href="#">Start Trading</a>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-r-1">
+              <img src="./img/slide-4.png" alt="Slide " class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#headercarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#headercarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div class="container mt-5 border-bottom p-5r">
+      <div class="row align-items-center py-5">
+        <div class="col-lg-9 col-12">
+          <div class="inner">
+            <h2 class="text-40 font-700">
+              Access Global Markets with MTinvesting
+            </h2>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="text-start text-lg-end">
+            <a
+              class="bg-brand-red hover:bg-brand-orange rounded-4 text-20 text-white fw-bold px-4 py-2 text-nowrap text-decoration-none"
+              href="#"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="services-we-offer py-5">
+      <div class="container">
+        <p class="text-center font-600 text-20 text-brand-red pt-3 pb-3">
+          Why Trade With Us
+        </p>
+        <h2 class="text-center font-700 text-32">
+          Fair conditions that work for you
+        </h2>
+        <p class="text-center font-500 text-light py-3">
+          Invest in your future with our diverse trading services built on a
+          solid foundation of expert market knowledge.
+        </p>
+        <div class="justify-content-center row pt-3">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card border-brand-light p-4 bg-brand-dark d-flex flex-column justify-content-between align-items-start rightfx-tools-card transition-all-500"
+              style="height: 340px"
+            >
+              <img
+                src="./img/it-1.png"
+                class="img-fluid"
+                alt=""
+                width="100"
+                height="100"
+              />
+              <div class="card-body mt-5">
+                <p class="font-600 text-20">
+                  <a
+                    class="text-decoration-none text-white hover:text-brand-blue"
+                    href="#"
+                  >
+                    Piani di crescita
+                  </a>
+                </p>
+                <p class="font-400 text-16">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card border-brand-light p-4 bg-brand-dark d-flex flex-column justify-content-between align-items-start rightfx-tools-card transition-all-500"
+              style="height: 340px"
+            >
+              <img
+                src="./img/it-2.png"
+                class="img-fluid"
+                alt=""
+                width="100"
+                height="100"
+              />
+              <div class="card-body mt-5">
+                <p class="font-600 text-20">
+                  <a
+                    class="text-decoration-none text-white hover:text-brand-blue"
+                    href="#"
+                  >
+                    Piani di crescita
+                  </a>
+                </p>
+                <p class="font-400 text-16">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card border-brand-light p-4 bg-brand-dark d-flex flex-column justify-content-between align-items-start rightfx-tools-card transition-all-500"
+              style="height: 340px"
+            >
+              <img
+                src="./img/it-3.png"
+                class="img-fluid"
+                alt=""
+                width="100"
+                height="100"
+              />
+              <div class="card-body mt-5">
+                <p class="font-600 text-20">
+                  <a
+                    class="text-decoration-none text-white hover:text-brand-blue"
+                    href="#"
+                  >
+                    Piani di crescita
+                  </a>
+                </p>
+                <p class="font-400 text-16">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container py-5">
+      <h2 class="text-center text-30 font-600 text-white pt-3">
+        Cryptocurrency Market
+      </h2>
+      <p class="text-center text-16 font-600 py-3">
+        This displays crypto assets and then sorts them by their market
+        capitalization.
+      </p>
+      <div class="table-container bg-brand-gray">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+          <script
+            type="text/javascript"
+            src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js"
+            async
+          >
+            {
+              "width": "100%",
+                "height": 490,
+                  "defaultColumn": "overview",
+                    "screener_type": "crypto_mkt",
+                      "displayCurrency": "USD",
+                        "colorTheme": "dark",
+                          "locale": "en"
+            }
+          </script>
+        </div>
+        <!-- TradingView Widget END -->
+      </div>
+    </section>
+    <!-- <div class="container-fluid py-5">
+   <div class="row">
+    <div class="col-md-12">
+     <div id="key-success-slider" class="owl-carousel">
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-1.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-2.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-3.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-4.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-5.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+
+      <div class="post-slide">
+       <div class="post-img">
+        <img src="./img/key-success-slide-6.png" alt="" />
+        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+       </div>
+       <div class="post-content">
+        <h3 class="post-title">
+         <a href="#">Lorem ipsum dolor sit amet.</a>
+        </h3>
+        <p class="post-description">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque
+         dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div> -->
+
+    <div class="container-fluid py-5 homepage-images">
+      <div class="row align-items-center py-4 py-lg-0">
+        <div class="col-lg-6 px-0">
+          <div class="text-area w-75 mx-auto">
+            <p class="text-30 font-700">NEGOZIAZIONE DI AZIONI</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the ,
+            </p>
+            <p id="more-text-1" class="d-none">
+              when an unknown printer took a galley of type and scrambled it to
+              make a type specimen book.
+            </p>
+            <!-- <button
+              onclick="readMore('more-text-1')"
+              class="text-warning bg-transparent border-0"
+            >
+              Read More ...
+            </button> -->
+          </div>
+        </div>
+        <div class="text-center col-lg-6 px-0">
+          <img class="img-fluid br-12" src="./img/forex-bg-1.png" alt="" />
+        </div>
+      </div>
+      <div class="row align-items-center py-4 py-lg-0 my-20">
+        <div class="text-center col-lg-6 px-0">
+          <img class="img-fluid br-12" src="./img/forex-bg-2.png" alt="" />
+        </div>
+        <div class="col-lg-6 px-0">
+          <div class="text-area w-75 mx-auto">
+            <p class="text-30 font-700">TRADE IN CRYPTUS</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the ,
+            </p>
+
+            <p id="more-text-2" class="d-none">
+              when an unknown printer took a galley of type and scrambled it to
+              make a type specimen book.
+            </p>
+            <!-- <button
+              onclick="readMore('more-text-2')"
+              class="text-warning bg-transparent border-0"
+            >
+              Read More ...
+            </button> -->
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center py-4 py-lg-0">
+        <div class="col-lg-6 px-0">
+          <div class="text-area w-75 mx-auto">
+            <p class="text-30 font-700">NEGOZIAZIONE DI AZIONI</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the ,
+            </p>
+
+            <p id="more-text-3" class="d-none">
+              when an unknown printer took a galley of type and scrambled it to
+              make a type specimen book.
+            </p>
+            <!-- <button
+              onclick="readMore('more-text-3')"
+              class="text-warning bg-transparent border-0"
+            >
+              Read More ...
+            </button> -->
+          </div>
+        </div>
+        <div class="text-center col-lg-6 px-0">
+          <img class="img-fluid br-12" src="./img/forex-bg-3.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="counter" class="counter bg-brand-gray">
+      <div class="container">
+        <div class="row">
+          <br />
+        </div>
+        <div class="row text-center">
+          <div class="col-6 col-sm-3 py-2">
+            <div class="counter">
+              <img class="py-1" src="./img/et-1.png" alt="" />
+              <h2
+                class="timer py-2 count-title count-number count"
+                data-to="1700"
+                data-count="1700"
+                data-speed="1500"
+              ></h2>
+              <p class="count-text py-1">Investments per day</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 py-2">
+            <div class="counter">
+              <img class="py-1" src="./img/et-2.png" alt="" />
+              <h2
+                class="timer py-2 count-title count-number count"
+                data-to="11900"
+                data-count="11900"
+                data-speed="1500"
+              ></h2>
+              <p class="count-text py-1">Satisfied customers</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 py-2">
+            <div class="counter">
+              <img class="py-1" src="./img/et-3.png" alt="" />
+              <h2
+                class="timer py-2 count-title count-number count"
+                data-to="42900"
+                data-count="42900"
+                data-speed="1500"
+              ></h2>
+              <p class="count-text py-1">Insurance Coverage (USD)</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 py-2">
+            <div class="counter">
+              <img class="py-1" src="./img/et-4.png" alt="" />
+              <h2
+                class="timer py-2 count-title count-number count"
+                data-to="157"
+                data-count="157"
+                data-speed="1500"
+              ></h2>
+              <p class="count-text py-1">Community</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="currency-icons-list container mx-auto my-3">
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Bitcoin</span>
+          <img src="./img/vector-1.png" alt="Bitcoin" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Ethereum</span>
+          <img src="./img/vector-2.png" alt="Ethereum" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Ripple</span>
+          <img src="./img/vector-3.png" alt="Ripple" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Monero</span>
+          <img src="./img/vector-4.png" alt="Monero" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Zcash</span>
+          <img src="./img/vector-5.png" alt="Zcash" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">GALA</span>
+          <img src="./img/vector-6.png" alt="GALA" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Litecoin</span>
+          <img src="./img/vector-7.png" alt="Litecoin" width="50" height="50" />
+        </li>
+        <li class="d-inline-flex py-2 flex-column-reverse">
+          <span class="text-16 font-600 py-3">Dash</span>
+          <img src="./img/vector-8.png" alt="Dash" width="50" height="50" />
+        </li>
+      </ul>
+    </div>
+    <div class="w-100">
+      <div class="position-relative homepage-video py-5">
+        <img
+          src="./img/video.png"
+          alt=""
+          class="position-absolute"
+          style="z-index: -1"
+        />
+        <div
+          class="d-flex flex-column align-items-center justify-content-between"
+        >
+          <h2 class="text-48 font-700">Only Coins You Need</h2>
+          <p class="pt-5 w-50">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+          <div class="mt-4">
+            <div class="mt-4">
+              <a
+                class="bg-brand-red hover:bg-brand-orange rounded-4 text-20 text-white fw-bold px-4 py-2 text-nowrap text-decoration-none"
+                href="#"
+              >
+                Start Trading
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-6">
+          <div class="accordion" id="accordionExamplea">
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingOne">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sapiente odit, quam fugit quae expedita ducimus omnis aliquid
+                  nulla nisi commodi mollitia explicabo quisquam ea tenetur
+                  similique a voluptates, aspernatur assumenda?
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingTwo">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Lorem consectetur adipisicing elit. Quo, officiis.
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti ducimus, deleniti hic adipisci dolorem nostrum harum.
+                  Cupiditate id voluptatibus fugit architecto, ratione placeat
+                  sequi qui laborum minus quibusdam iusto obcaecati quisquam
+                  facere eius rerum? Culpa mollitia doloremque aliquam veniam
+                  numquam sequi eaque? Doloremque voluptates enim corporis quia
+                  ut vel debitis.
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingThree">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Lorem elit. In earum officiis eius.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  possimus excepturi tempore dolorum labore! Nam corrupti
+                  aperiam hic eum! Dicta.
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingFour">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  O similique fepellat a officii ullam temporibus!
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, nostrum iusto unde ut, facilis, libero enim hic
+                  eveniet est iure accusamus aspernatur similique quaerat iste
+                  deleniti modi! Mollitia perspiciatis ut ullam, dolorum
+                  praesentium voluptates corporis autem sint illum hic doloribus
+                  eaque placeat modi, deserunt ex, minus aliquam vel pariatur
+                  eos! Totam ducimus alias, ipsam itaque ratione debitis rerum
+                  magnam fuga.
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingFive">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Repellat a officiis dolorum perspiciatis ullam temporibus!
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, nostrum iusto unde ut, facilis, libero enim hic
+                  eveniet est iure accusamus aspernatur similique quaerat iste
+                  deleniti modi! Mollitia perspiciatis ut ullam, dolorum
+                  praesentium voluptates corporis autem sint illum hic doloribus
+                  eaque placeat modi, deserunt ex, minus aliquam vel pariatur
+                  eos! Totam ducimus alias, ipsam itaque ratione debitis rerum
+                  magnam fuga.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingSix">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  Inventore quo similique facilis! Repellat a officiis dolor
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, nostrum iusto unde ut, facilis, libero enim hic
+                  eveniet est iure accusamus aspernatur similique quaerat iste
+                  deleniti modi! Mollitia perspiciatis ut ullam, dolorum
+                  praesentium voluptates corporis autem sint illum hic doloribus
+                  eaque placeat modi, deserunt ex, minus aliquam vel pariatur
+                  eos! Totam ducimus alias, ipsam itaque ratione debitis rerum
+                  magnam fuga.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item my-3 card bg-brand-gray text-white border-brand-gray"
+            >
+              <h2 class="accordion-header outline-none" id="headingSeven">
+                <button
+                  class="accordion-button bg-brand-gray text-white py-4 collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  Lorem ipsum dolor sit. Maxime doloremque non aperiam laborum
+                  aute
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExamplea"
+              >
+                <div class="accordion-body card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, nostrum iusto unde ut, facilis, libero enim hic
+                  eveniet est iure accusamus aspernatur similique quaerat iste
+                  deleniti modi! Mollitia perspiciatis ut ullam, dolorum
+                  praesentium voluptates corporis autem sint illum hic doloribus
+                  eaque placeat modi, deserunt ex, minus aliquam vel pariatur
+                  eos! Totam ducimus alias, ipsam itaque ratione debitis rerum
+                  magnam fuga.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 homepage-about">
+          <div>
+            <div class="">
+              <h4 class="text-40">
+                About
+                <span class="text-brand-red">MTinvesting</span>
+              </h4>
+              <h2 class="mt-3 text-48">Delivering Innovation.</h2>
+
+              <p class="text-20">
+                Exercitationem nostrum molestias nisi sint maiores quis natus a
+                non consequatur aut, repellat eligendi veritatis accusantium
+                odio cupiditate numquam magni dolorem odit, possimus. Doloremque
+                dolor officiis saepe error reprehenderit numquam necessitatibus!
+                Necessitatibus sit voluptate praesentium soluta voluptatem.
+              </p>
+
+              <ul class="list-unstyled">
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+
+                <li>
+                  <span class="icon">
+                    <i class="fa fa-check"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+      integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#key-success-slider").owlCarousel({
+          items: 3,
+          itemsDesktop: [1199, 3],
+          itemsDesktopSmall: [980, 2],
+          itemsMobile: [600, 1],
+          navigation: true,
+          navigationText: ["", ""],
+          pagination: true,
+          autoPlay: true,
+        });
+      });
+    </script>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>
