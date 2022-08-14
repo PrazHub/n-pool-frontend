@@ -1,0 +1,7 @@
+{
+ "proseWrap": "never",
+ "tabWidth": 4,
+ "printWidth": 100,
+ "bracketSameLine": true,
+ "htmlWhitespaceSensitivity": "ignore"
+}
